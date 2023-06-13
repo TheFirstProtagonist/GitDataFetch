@@ -1,6 +1,6 @@
 # GitDataFetch
 
-GitDataFetch é uma aplicação web que permite aos usuários pesquisar por usuários do GitHub e exibir suas informações em formato de tabela. Ela utiliza a API do GitHub para buscar dados do usuário e os armazena localmente usando o localStorage.
+O GitDataFetch é uma aplicação web que permite aos usuários pesquisar por usuários do GitHub e exibir suas informações em formato de tabela. Ele utiliza a API do GitHub para buscar os dados dos usuários e os armazena localmente usando o localStorage.
 
 ## Demonstração ao Vivo
 
@@ -18,6 +18,7 @@ Uma demonstração ao vivo da aplicação pode ser encontrada [aqui](https://exa
 - HTML
 - CSS
 - JavaScript
+- Node.js
 
 ## Utilização
 
@@ -30,7 +31,9 @@ Uma demonstração ao vivo da aplicação pode ser encontrada [aqui](https://exa
 
 1. Clone o repositório: `git clone https://github.com/your-username/GitDataFetch.git`
 2. Navegue até o diretório do projeto: `cd GitDataFetch`
-3. Abra o arquivo index.html em um navegador da web.
+3. Instale as dependências: `npm install`
+4. Inicie a aplicação: `npm start`
+5. Abra um navegador da web e acesse `http://localhost:3000`.
 
 ## Contribuição
 
