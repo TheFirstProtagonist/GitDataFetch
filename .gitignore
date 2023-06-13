@@ -1,0 +1,15 @@
+# arquivos e diretórios a serem ignorados pelo Git
+
+# Node.js
+/node_modules
+
+# arquivos de compilação e construção
+/dist
+/build
+
+# arquivos IDE e editor
+/.vscode
+/.idea
+*.iml
+
+# outros arquivos e diretórios personalizados

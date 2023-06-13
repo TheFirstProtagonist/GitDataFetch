@@ -1,0 +1,19 @@
+{
+  "name": "gitdatafetch",
+  "version": "1.0.0",
+  "description": "GitDataFetch é uma aplicação web que permite aos usuários pesquisar por usuários do GitHub e exibir suas informações em formato de tabela. Ela utiliza a API do GitHub para buscar dados do usuário e os armazena localmente usando o localStorage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-modules server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.5",
+    "nodemon": "^2.0.22"
+  }
+}

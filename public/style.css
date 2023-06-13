@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  :root {
+    font-size: 62.5%;
+    --font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  .avatar {
+    width: 40px; /* Ajuste o tamanho conforme necessário */
+    height: 40px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%;
+  }
+    
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-container input {
+    margin-right: 0px;
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+  }
+  
+  .input-container button {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+  
+  .container {
+    max-width: 66rem;
+    margin: 0 auto;
+  }
+  
+  input {
+    padding: 6px 12px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+    
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+    
+  button {
+    padding: 7.2px 12px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+  }
+  
+  
+  /* The alert message box */
+  .alert {
+    padding: 10px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+    
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+    
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+  
+  
+/* Media Query para tela de 768px */
+@media (max-width: 768px) {
+    .container {
+      padding: 0 1rem;
+    }
+  
+    table {
+      font-size: 1.4rem;
+    }
+  
+    th, td {
+      padding: 6px;
+    }
+  
+    input, button {
+      font-size: 1.4rem;
+    }
+}
+  
